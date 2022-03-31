@@ -51,11 +51,24 @@ class TestCourse(unittest.TestCase):
         
         self.assertEqual(c.Start, "Semester 2")
         
-        activities = 'Total Hours:\n100\n\n(\n Lecture Hours 22,\n Seminar/Tutorial Hours 11,\n\n Supervised Practical/Workshop/Studio Hours 3,\n\n\n\n\n Formative Assessment Hours 1,\n Summative Assessment Hours 4,\n\n\n Programme Level Learning and Teaching Hours 2,\n\nDirected Learning and Independent Learning Hours\n57 )'
 
-        self.assertEqual(c.ActivitiesText,activities)
+        activities_text = 'Total Hours: 100  (  Lecture Hours 22,  Seminar/Tutorial Hours 11,   Supervised Practical/Workshop/Studio Hours 3,      Formative Assessment Hours 1,  Summative Assessment Hours 4,    Programme Level Learning and Teaching Hours 2,  Directed Learning and Independent Learning Hours 57 )'
+        
+        self.assertEqual(c.ActivitiesText,activities_text)
         
         self.assertEqual(c.Hours, 100)
+        
+        activities = {
+              'Directed Learning and Independent Learning Hours': 57,
+              'Formative Assessment Hours': 1,
+              'Lecture Hours': 22,
+              'Programme Level Learning and Teaching Hours': 2,
+              'Seminar/Tutorial Hours': 11,
+              'Summative Assessment Hours': 4,
+              'Supervised Practical/Workshop/Studio Hours': 3
+        }
+        
+        self.assertEqual(c.Activities,activities)
         
         
         
