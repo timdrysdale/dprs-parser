@@ -28,7 +28,8 @@ class Course(): # pylint: disable=too-few-public-methods
         self.ParseCode()
         self.ParseName()
         self.ParseKeywords()
-        self.ParseOutline()   
+        self.ParseOutline() 
+        self.ParseDelivery()
             
             
     def ParseCode(self):
@@ -50,20 +51,24 @@ class Course(): # pylint: disable=too-few-public-methods
             kw.append(k.strip())
             
         self.Keywords = kw    
+        
+    def GetTableData(self, caption_text):
+       # get data from a table with a given caption 
+       for caption in self.Soup.find_all('caption'):
+           if caption.get_text() == caption_text:
+               table = caption.find_parent('table', {'class': 'sitstablegrid'})
+   
+       data = []
+       rows = table.find_all('tr')
+       for row in rows:
+           cols = row.find_all('td')
+           cols = [ele.text.strip() for ele in cols]
+           data.append([ele for ele in cols if ele]) # Get rid of empty values   
+       return data
     
     def ParseOutline(self):
-        #return number of credits
-        for caption in self.Soup.find_all('caption'):
-            if caption.get_text() == 'Course Outline':
-                table = caption.find_parent('table', {'class': 'sitstablegrid'})
         
-        data = []
-        rows = table.find_all('tr')
-        for row in rows:
-            cols = row.find_all('td')
-            cols = [ele.text.strip() for ele in cols]
-            data.append([ele for ele in cols if ele]) # Get rid of empty values
-            
+        data = self.GetTableData("Course Outline")
         self.Outline = data
         self.School = data[0][1]
         self.College = data[0][3]
@@ -73,6 +78,12 @@ class Course(): # pylint: disable=too-few-public-methods
         self.ECTS_credits = int(data[2][3])
         self.Summary = data[4][1]
         self.Description = data[5][1]
+        
+       
+    def ParseDelivery(self):   
+        
+        data = self.GetTableData("Course Delivery Information")
+        self.Start = data[2][1]
     
     def Activities(self):
         #return activities and hours
