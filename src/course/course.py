@@ -24,6 +24,8 @@ class Course(): # pylint: disable=too-few-public-methods
         
         if (not page_type) or page_type["content"] != "DPT":
            raise ValueError('Page type is not DPT') 
+           
+        self.Outline()   
             
             
     def Code(self):
@@ -45,8 +47,32 @@ class Course(): # pylint: disable=too-few-public-methods
             kw.append(k.strip())
             
         return kw    
+    
+    def Outline(self):
+        #return number of credits
+        for caption in self.Soup.find_all('caption'):
+            if caption.get_text() == 'Course Outline':
+                table = caption.find_parent('table', {'class': 'sitstablegrid'})
+        
+        data = []
+        rows = table.find_all('tr')
+        for row in rows:
+            cols = row.find_all('td')
+            cols = [ele.text.strip() for ele in cols]
+            data.append([ele for ele in cols if ele]) # Get rid of empty values
+            
+        self.Outline = data
+        self.School = data[0][1]
+        self.College = data[0][3]
+        self.Credit_level = data[1][1]
+        self.Availability = data[1][3]
+        self.SCQF_credits = int(data[2][1])
+        self.ECTS_credits = int(data[2][3])
+        self.Summary = data[4][1]
+        self.Description = data[5][1]
+    
+    def Activities(self):
+        #return activities and hours
+        return None
 
-
-
-
-
+    
