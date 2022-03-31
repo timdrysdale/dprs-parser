@@ -17,13 +17,35 @@ class Course(): # pylint: disable=too-few-public-methods
         if format != "default":
             raise ValueError(f'Format {format} not known; available formats are ["default"]')
             
-        self.Soup = BeautifulSoup(markup, parser)    
+        self.Soup = BeautifulSoup(markup, parser)
+        
+        #check format
+        page_type = self.Soup.find("meta",attrs={"name":"type"})            
+        
+        if (not page_type) or page_type["content"] != "DPT":
+           raise ValueError('Page type is not DPT') 
             
             
     def Code(self):
-        
-        code = self.Soup.find("meta",attrs={"name":"modcode"})            
-        return code["content"] if code else "No course code found"
+        # return course code    
+        tag = self.Soup.find("meta",attrs={"name":"modcode"})            
+        return tag["content"] if tag else "No course code found"
+    
+    def Name(self):
+        #return course name
+        tag = self.Soup.find("meta",attrs={"name":"modname"})            
+        return tag["content"] if tag else "No course name found"
+    
+    def Keywords(self):
+        #return keywords
+        tag = self.Soup.find("meta",attrs={"name":"modkeywords"})  
+        content = tag["content"] if tag else ""
+        kw = []
+        for k in content.split(","):
+            kw.append(k.strip())
+            
+        return kw    
+
 
 
 
