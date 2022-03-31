@@ -6,6 +6,7 @@ Methods provide information about the course, extracted from the page.
 """
 
 from bs4 import BeautifulSoup
+import regex
 
 class Course(): # pylint: disable=too-few-public-methods
     """Courses are initialised from an HTML page in a string
@@ -84,6 +85,17 @@ class Course(): # pylint: disable=too-few-public-methods
         
         data = self.GetTableData("Course Delivery Information")
         self.Start = data[2][1]
+        self.ActivitiesText = data[4][1]
+        
+        #activities = 'Total Hours:\n100\n\n(\n Lecture Hours 22,\n Seminar/Tutorial Hours 11,\n\n Supervised Practical/Workshop/Studio Hours 3,\n\n\n\n\n Formative Assessment Hours 1,\n Summative Assessment Hours 4,\n\n\n Programme Level Learning and Teaching Hours 2,\n\nDirected Learning and Independent Learning Hours\n57 )'
+
+        pattern = regex.compile(r'^Total\s*Hours:\s*([0-9]+).*')
+        m = pattern.match(self.ActivitiesText)
+        if m.groups():
+            self.Hours = int(m.groups()[0])
+        
+
+        
     
     def Activities(self):
         #return activities and hours

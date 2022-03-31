@@ -26,6 +26,7 @@ class TestCourse(unittest.TestCase):
         self.assertEqual(c.Name, "Control and Instrumentation Engineering 3")
         
         keywords = ["Control Systems", "Control Engineering", "Instrumentation"]
+        
         self.assertEqual(c.Keywords, keywords)
         
         self.assertEqual(c.School,"School of Engineering")
@@ -49,6 +50,14 @@ class TestCourse(unittest.TestCase):
         self.assertEqual(c.Description, description)
         
         self.assertEqual(c.Start, "Semester 2")
+        
+        activities = 'Total Hours:\n100\n\n(\n Lecture Hours 22,\n Seminar/Tutorial Hours 11,\n\n Supervised Practical/Workshop/Studio Hours 3,\n\n\n\n\n Formative Assessment Hours 1,\n Summative Assessment Hours 4,\n\n\n Programme Level Learning and Teaching Hours 2,\n\nDirected Learning and Independent Learning Hours\n57 )'
 
+        self.assertEqual(c.ActivitiesText,activities)
+        
+        self.assertEqual(c.Hours, 100)
+        
+        
+        
 if __name__ == "__main__":
     unittest.main()
