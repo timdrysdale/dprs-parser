@@ -25,20 +25,23 @@ class Course(): # pylint: disable=too-few-public-methods
         if (not page_type) or page_type["content"] != "DPT":
            raise ValueError('Page type is not DPT') 
            
+        self.Code = self.ParseCode()
+        self.Name = self.ParseName()
+        self.Keywords = self.ParseKeywords()
         self.Outline()   
             
             
-    def Code(self):
+    def ParseCode(self):
         # return course code    
         tag = self.Soup.find("meta",attrs={"name":"modcode"})            
         return tag["content"] if tag else "No course code found"
     
-    def Name(self):
+    def ParseName(self):
         #return course name
         tag = self.Soup.find("meta",attrs={"name":"modname"})            
         return tag["content"] if tag else "No course name found"
     
-    def Keywords(self):
+    def ParseKeywords(self):
         #return keywords
         tag = self.Soup.find("meta",attrs={"name":"modkeywords"})  
         content = tag["content"] if tag else ""

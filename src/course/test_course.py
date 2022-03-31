@@ -21,12 +21,12 @@ class TestCourse(unittest.TestCase):
         #parse markup
         c = Course(markup)
         
-        self.assertEqual(c.Code(), "SCEE09002")
+        self.assertEqual(c.Code, "SCEE09002")
         
-        self.assertEqual(c.Name(), "Control and Instrumentation Engineering 3")
+        self.assertEqual(c.Name, "Control and Instrumentation Engineering 3")
         
         keywords = ["Control Systems", "Control Engineering", "Instrumentation"]
-        self.assertEqual(c.Keywords(), keywords)
+        self.assertEqual(c.Keywords, keywords)
         
         self.assertEqual(c.School,"School of Engineering")
         
