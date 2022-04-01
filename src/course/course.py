@@ -71,28 +71,66 @@ class Course(): # pylint: disable=too-few-public-methods
     
     def ParseOutline(self):
         
+        #TODO switch on first string in each row to assign values
+               
         data = self.GetTableData("Course Outline")
         self.Outline = data
-        self.School = data[0][1]
-        self.College = data[0][3]
-        self.Credit_level = data[1][1]
-        self.Availability = data[1][3]
-        self.SCQF_credits = int(data[2][1])
-        self.ECTS_credits = int(data[2][3])
-        self.Summary = data[4][1]
-        self.Description = data[5][1]
         
+        
+        for row in data:
+            
+            try:    
+                label = row[0].strip()
+            
+                if label == "School":
+                    try:
+                        self.School = row[1]
+                        self.College = row[3]
+                    except:
+                        pass
+                          
+                elif label == "Credit level (Normal year taken)":
+                    try:
+                        self.Credit_level = row[1]
+                        self.Availability = row[3]
+                    except:
+                        pass
+                    
+                elif label == "SCQF Credits":
+                    try:
+                        self.SCQF_credits = float(row[1])
+                        self.ECTS_credits = float(row[3])
+                    except:
+                        pass           
+                elif label == "Summary":
+                   self.Summary = row[1]
+                   
+                elif label == "Course description":
+                   self.Description = row[1]
+               
+            except IndexError:
+                pass
        
     def ParseDelivery(self):   
         
         data = self.GetTableData("Course Delivery Information")
-        self.Start = data[2][1]
-        self.ActivitiesText = data[4][1].replace("\n", " ")
+        
+        for row in data:
+           try:
+               
+               label = row[0].strip()
+               
+               if label == "Course Start":
+                   self.Start = row[1]
+               elif label.startswith("Learning"):
+                   self.ActivitiesText = row[1].replace("\n", " ")
+           except IndexError:
+               pass
 
         pattern = regex.compile(r'^Total\s*Hours:\s*([0-9]+).*')
         m = pattern.match(self.ActivitiesText)
         if m.groups():
-            self.Hours = int(m.groups()[0])
+            self.Hours = float(m.groups()[0])
             
         pattern = regex.compile(r'(([a-zA-Z\/\s]+)([0-9]+))')
         m = pattern.findall(self.ActivitiesText)
