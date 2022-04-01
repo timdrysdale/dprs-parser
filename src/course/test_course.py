@@ -1,7 +1,8 @@
 """Test Course"""
-
+import sys
 import unittest
 from course import Course
+
 
 class TestCourse(unittest.TestCase):
     """TestCourse"""
@@ -69,7 +70,7 @@ class TestCourse(unittest.TestCase):
         }
         
         self.assertEqual(c.Activities,activities)
-        
+
         
         
 if __name__ == "__main__":

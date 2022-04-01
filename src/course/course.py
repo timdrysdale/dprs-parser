@@ -104,12 +104,4 @@ class Course(): # pylint: disable=too-few-public-methods
                 self.Activities[what] = hours
                     
 
-   
-
-        
-    
-    def Activities(self):
-        #return activities and hours
-        return None
-
     
