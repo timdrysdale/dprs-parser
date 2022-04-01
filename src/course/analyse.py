@@ -122,31 +122,30 @@ if __name__ == "__main__":
         #plt.plot(value)
         #plt.title(key)
 
-    # fig1, ax1 = plt.subplots()
-    # ax1.pie(sizes, labels=labels, autopct='%1.1f%%',
-    #     shadow=True, startangle=90)
-    # ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
-    # #plt.tight_layout()
-    # plt.show()    
-    # plt.savefig("contact_activities.png", dpi=300)
+    fig1, ax1 = plt.subplots()
+    ax1.pie(sizes, labels=labels, autopct='%1.1f%%',
+        shadow=True, startangle=90)
+    ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+    #plt.tight_layout()
+    plt.show()    
+    plt.savefig("contact_activities.png", dpi=300)
     
-    # labels = []
-    # sizes = []
-    # for key, value in activities.items():
-    #     labels.append(key)
-    #     sizes.append(alue)
-    #     print(f"{key}: {alue}")
-    #     #plt.figure()
-    #     #plt.plot(value)
-    #     #plt.title(key)
+    labels = []
+    sizes = []
+    for key, value in activities.items():
+        labels.append(key)
+        sizes.append(value)
+        print(f"{key}: {value}")
+        #plt.figure()
+        #plt.plot(value)
+        #plt.title(key)
 
-    # fig1, ax1 = plt.subplots()
-    # ax1.pie(sizes, labels=labels, autopct='%1.1f%%',
-    #     shadow=True, startangle=90)
-    # ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
-    # #plt.tight_layout()
-    # plt.show()    
-    # plt.savefig("all_activities.png", dpi=300)
+    fig1, ax1 = plt.subplots()
+    ax1.pie(sizes, labels=labels, autopct='%1.1f%%',
+    shadow=True, startangle=90)
+    ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+    plt.show()    
+    plt.savefig("all_activities.png", dpi=300)
     
     
             
