@@ -80,6 +80,15 @@ class Course(): # pylint: disable=too-few-public-methods
         data = self.GetTableData("Course Outline")
         self.Outline = data
         
+        self.School = ""
+        self.College = ""
+        self.Credit_level = ""
+        self.Availability = ""
+        self.SCQF_credits = 0
+        self.ECTS_credits = 0
+        self.Summary = ""
+        self.Description = ""
+        
         if data == []:
             return
         
@@ -122,6 +131,7 @@ class Course(): # pylint: disable=too-few-public-methods
         data = self.GetTableData("Course Delivery Information")
         self.ActivitiesText = ""
         self.Hours = ""
+        self.Start = ""
         
         if data == []:
             return
@@ -141,7 +151,7 @@ class Course(): # pylint: disable=too-few-public-methods
           
         pattern = regex.compile(r'^Total\s*Hours:\s*([0-9]+).*')
         m = pattern.match(self.ActivitiesText)
-        if m.groups():
+        if m and len(m.groups())>0:
             self.Hours = float(m.groups()[0])
             
         pattern = regex.compile(r'(([a-zA-Z\/\s]+)([0-9]+))')
