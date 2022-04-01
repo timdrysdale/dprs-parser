@@ -31,6 +31,8 @@ class Course(): # pylint: disable=too-few-public-methods
         self.ParseKeywords()
         self.ParseOutline() 
         self.ParseDelivery()
+        
+        self.Soup = None #save memory
             
             
     def ParseCode(self):
