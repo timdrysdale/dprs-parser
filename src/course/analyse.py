@@ -220,15 +220,14 @@ if __name__ == "__main__":
        
         
         fig1, ax1 = plt.subplots()
-        ax1.pie(sizes, labels=labels, explode=explode, colors = colors, autopct='%1.0f%%',
-        shadow=True, startangle=90)
+        ax1.pie(sizes, labels=labels, explode=explode, colors = colors, shadow=False, autopct='%1.0f%%',
+        startangle=90)
         ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
    
         plt.title(l)
-        plt.show() 
         l = l.replace(" ","_")
         plt.savefig(f"{l}_all_activities.png", dpi=300)
-    
+        plt.close()
     
             
             
