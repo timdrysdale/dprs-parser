@@ -60,13 +60,17 @@ class Course(): # pylint: disable=too-few-public-methods
        for caption in self.Soup.find_all('caption'):
            if caption.get_text() == caption_text:
                table = caption.find_parent('table', {'class': 'sitstablegrid'})
-   
+       
        data = []
-       rows = table.find_all('tr')
-       for row in rows:
-           cols = row.find_all('td')
-           cols = [ele.text.strip() for ele in cols]
-           data.append([ele for ele in cols if ele]) # Get rid of empty values   
+       try: #we might not have found a table with the caption
+           rows = table.find_all('tr')
+           for row in rows:
+               cols = row.find_all('td')
+               cols = [ele.text.strip() for ele in cols]
+               data.append([ele for ele in cols if ele]) # Get rid of empty values   
+       except:
+           pass
+       
        return data
     
     def ParseOutline(self):
@@ -76,6 +80,8 @@ class Course(): # pylint: disable=too-few-public-methods
         data = self.GetTableData("Course Outline")
         self.Outline = data
         
+        if data == []:
+            return
         
         for row in data:
             
@@ -114,6 +120,11 @@ class Course(): # pylint: disable=too-few-public-methods
     def ParseDelivery(self):   
         
         data = self.GetTableData("Course Delivery Information")
+        self.ActivitiesText = ""
+        self.Hours = ""
+        
+        if data == []:
+            return
         
         for row in data:
            try:
@@ -126,7 +137,8 @@ class Course(): # pylint: disable=too-few-public-methods
                    self.ActivitiesText = row[1].replace("\n", " ")
            except IndexError:
                pass
-
+        
+          
         pattern = regex.compile(r'^Total\s*Hours:\s*([0-9]+).*')
         m = pattern.match(self.ActivitiesText)
         if m.groups():
@@ -140,6 +152,7 @@ class Course(): # pylint: disable=too-few-public-methods
             hours = int(element[2])
             if not (what == ""):
                 self.Activities[what] = hours
+        
                     
 
     

@@ -33,6 +33,6 @@ def directory(directory_in_str):
                 
         except Exception as e:
             #ignore any problems
-            print(f"{count}/{total}: {filename} -> {e}\n")
+            print(f"{count}/{total}: {filename} -X- {e}\n")
 
     return courses        
