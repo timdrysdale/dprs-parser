@@ -149,7 +149,7 @@ if __name__ == "__main__":
         "Year 3",
         "Year 4",        
         "Year 5",
-        "Post Gradudate"
+        "Post Graduate"
         ] 
     
     #fix colours per category
