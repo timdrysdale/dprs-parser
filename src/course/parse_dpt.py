@@ -16,11 +16,11 @@ if __name__ == "__main__":
     else:
         
         
-        courses = parse.directory('/home/$USER/websites/DPRS-SoE/www.drps.ed.ac.uk/21-22/dpt')
+        courses = parse.directory('/home/tim/websites/DPRS-SoE/www.drps.ed.ac.uk/21-22/dpt')
         
         for c in courses:
             if c.School == "School of Engineering":
-                print(f"{c.Code}: {c.Name} ({c.SCQF_credits} cr, {c.Hours} hrs)")
+                print(f"{c.Code}: {c.Name} (level {c.Year}, {c.SCQF_credits} cr, {c.Hours} hrs)")
                 
         with open(cp, 'wb') as f:
             pickle.dump(courses,f)    
