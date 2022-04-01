@@ -46,7 +46,7 @@ def sum_activities(courses):
             
     return activities
 
-def other_activities(activities, threshold=0.02):
+def other_activities(activities, threshold=0.02, keep=[]):
         total = 0
         summed = {}
         for k, v in activities.items():
@@ -63,9 +63,11 @@ def other_activities(activities, threshold=0.02):
 
         
         for k, sv in summed.items():
-            if sv < threshold_abs:
+            # override keep if zero value
+            if (sv < threshold_abs and not k in keep) or sv == 0:
                 delete.append(k)
                 other = other + sv
+                
                 
         for k in delete:
             summed.pop(k)
@@ -76,7 +78,7 @@ def other_activities(activities, threshold=0.02):
                     
            
 if __name__ == "__main__":
-    
+    showContactOnly = False
     cp = 'courses.pickle'
     
     courses = load(cp)
@@ -109,43 +111,123 @@ if __name__ == "__main__":
             #print(f"{c.Code}: {c.Name} ({c.SCQF_credits} cr, {c.Hours} hrs)")
             
     activities = other_activities(sum_activities(eng_courses))
-  
-    labels = []
-    sizes = []
-    for key, value in activities.items():
-        if key == "Directed Learning and Independent Learning Hours":
-            continue
-        labels.append(key)
-        sizes.append(value)
-        print(f"{key}: {value}")
-        #plt.figure()
-        #plt.plot(value)
-        #plt.title(key)
-
-    fig1, ax1 = plt.subplots()
-    ax1.pie(sizes, labels=labels, autopct='%1.1f%%',
-        shadow=True, startangle=90)
-    ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
-    #plt.tight_layout()
-    plt.show()    
-    plt.savefig("contact_activities.png", dpi=300)
     
-    labels = []
-    sizes = []
-    for key, value in activities.items():
-        labels.append(key)
-        sizes.append(value)
-        print(f"{key}: {value}")
-        #plt.figure()
-        #plt.plot(value)
-        #plt.title(key)
+    
+    if showContactOnly:
+        labels = []
+        sizes = []
+        for key, value in activities.items():
+            if key == "Directed Learning and Independent Learning Hours":
+                continue
+            labels.append(key)
+            sizes.append(value)
+            print(f"{key}: {value}")
+            #plt.figure()
+            #plt.plot(value)
+            #plt.title(key)
+    
+        fig1, ax1 = plt.subplots()
+        ax1.pie(sizes, labels=labels, autopct='%1.1f%%',
+            shadow=True, startangle=90)
+        ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+        #plt.tight_layout()
+        plt.show()    
+        plt.savefig("contact_activities.png", dpi=300)
+        
+    clist = [
+        eng_1,
+        eng_2,
+        eng_3,
+        eng_4,
+        eng_5,
+        eng_pg     
+        ]
+    
+    levels = [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4",        
+        "Year 5",
+        "Post Gradudate"
+        ] 
+    
+    #fix colours per category
+    categories = sum_activities(eng_courses).items()
+    
+    short_keys = {'Lecture Hours': 'Lectures',
+                  'Seminar/Tutorial Hours': 'Tutorials',
+                  'Supervised Practical/Workshop/Studio Hours': 'Practicals',
+                  'Feedback/Feedforward Hours': 'Feedback',
+                  'Programme Level Learning and Teaching Hours': 'Programme',
+                  'Directed Learning and Independent Learning Hours': 'Independent',
+                  'Formative Assessment Hours': 'Formative',
+                  'Summative Assessment Hours': 'Summative',
+                  'Online Activities': 'Online', 
+                  'Other Study Hours': 'Other study',
+                  'Dissertation/Project Supervision Hours': 'Project Supervisions',
+                  'Revision Session Hours': 'Revision',
+                  'Placement Study Abroad Hours': 'Abroad',
+                  'External Visit Hours': 'External Visits',
+                  'Fieldwork Hours': 'Fieldwork'
+                  }
 
-    fig1, ax1 = plt.subplots()
-    ax1.pie(sizes, labels=labels, autopct='%1.1f%%',
-    shadow=True, startangle=90)
-    ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
-    plt.show()    
-    plt.savefig("all_activities.png", dpi=300)
+    color_keys = { 'Other': 'lightgrey',
+                   'Lecture Hours': 'firebrick',
+                   'Seminar/Tutorial Hours': 'dodgerblue',
+                   'Supervised Practical/Workshop/Studio Hours': 'forestgreen',
+                   'Feedback/Feedforward Hours': 'blueviolet',
+                   'Programme Level Learning and Teaching Hours': 'wheat',
+                   'Directed Learning and Independent Learning Hours': 'orange',
+                   'Formative Assessment Hours': 'darkmagenta',
+                   'Summative Assessment Hours': 'navy',
+                   'Online Activities': 'seagreen', 
+                   'Other Study Hours': 'darkgrey',
+                   'Dissertation/Project Supervision Hours': 'orange',
+                   'Revision Session Hours': 'cornsilk',
+                   'Placement Study Abroad Hours': 'chocolate',
+                   'External Visit Hours': 'saddlebrown',
+                   'Fieldwork Hours': 'peru'
+                   }
+    explode_keys = ['Supervised Practical/Workshop/Studio Hours'] 
+    
+    for c, l in zip(clist, levels):
+            
+        activities = other_activities(sum_activities(c), threshold=0.03, keep=["Supervised Practical/Workshop/Studio Hours"])
+        labels = []
+        sizes = []
+        explode = []
+        colors = []
+        print(l)
+        for key, value in activities.items():
+            #replace key if known to have a short_key
+            short = key
+            if key in short_keys:
+                short = short_keys[key]
+            if key in explode_keys:
+                explode.append(0.1)
+            else:
+                explode.append(0)
+                
+            if key in color_keys:    
+                colors.append(color_keys[key])
+            else:
+                colors.append("beige")
+                
+            labels.append(short)
+            sizes.append(value)
+            print(f"{key}: {value}")
+       
+        
+        fig1, ax1 = plt.subplots()
+        ax1.pie(sizes, labels=labels, explode=explode, colors = colors, autopct='%1.0f%%',
+        shadow=True, startangle=90)
+        ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+   
+        plt.title(l)
+        plt.show() 
+        l = l.replace(" ","_")
+        plt.savefig(f"{l}_all_activities.png", dpi=300)
     
     
             
