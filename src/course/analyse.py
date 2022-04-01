@@ -224,9 +224,11 @@ if __name__ == "__main__":
         startangle=90)
         ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
    
-        plt.title(l)
+        plt.title(f"{l} ({len(c)} courses)")
         l = l.replace(" ","_")
+        plt.tight_layout()
         plt.savefig(f"{l}_all_activities.png", dpi=300)
+        plt.show()
         plt.close()
     
             
