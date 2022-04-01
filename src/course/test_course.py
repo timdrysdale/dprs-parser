@@ -7,6 +7,7 @@ from course import Course
 class TestCourse(unittest.TestCase):
     """TestCourse"""
     
+   
     def test_init(self):
         """Parse markup"""
         
@@ -47,6 +48,19 @@ class TestCourse(unittest.TestCase):
         self.assertEqual(c.Summary, summary)
         
         description = 'Topics covered (and indicative no. of lectures for each):\nInstrumentation (3 lectures): main types of transducers including flow, pressure, temperature, position, force, velocity and acceleration transducers; signal conditioning and interfacing.\n\nMathematical Models of Dynamic Systems (5 lectures): \nopen and closed-loop systems; static and dynamic response; modelling of linear systems; linearisation; Laplace transform; transfer functions; block diagrams.\n\nFeedback Systems (5 lectures): \nerror signals; sensitivity; disturbance rejection; steady-state and transient response; performance of 1st and 2nd order systems; stability; Routh-Hurwitz stability criterion. \n\nControl Systems in Frequency Domain (5 lectures): Bode plots; gain and phase margins; frequency domain performance specifications; relative stability; controller design using frequency response methods.\n\nController Design (4 lectures):\nProportional-Integral-Derivative controllers; Phase-lead and lag compensators; introduction to Artificial Intelligence for Control (Neural Networks, Fuzzy Controllers).'
+        
+        self.assertEqual(c.Year, '3')
+        
+        lines = [
+        "SCQF Level 11 (Year 4 Undergraduate)",
+        "SCQF Level 10 (Year 4 Undergraduate)",
+        "SCQF Level 11 (Postgraduate)"
+         ]
+        
+        expected = ["4","4","pg"]
+        
+        for line, exp in zip(lines, expected):
+            self.assertEqual(exp, c.ParseCreditLevel(line))
         
         self.assertEqual(c.Description, description)
         

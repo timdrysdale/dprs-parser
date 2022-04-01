@@ -29,6 +29,7 @@ if __name__ == "__main__":
     for c in courses:
         if c.School == "School of Engineering":
             eng_courses.append(c)
+            print(f"{c.Credit_level}")
             #print(f"{c.Code}: {c.Name} ({c.SCQF_credits} cr, {c.Hours} hrs)")
             
             

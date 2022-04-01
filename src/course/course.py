@@ -88,6 +88,7 @@ class Course(): # pylint: disable=too-few-public-methods
         self.ECTS_credits = 0
         self.Summary = ""
         self.Description = ""
+        self.Year=""
         
         if data == []:
             return
@@ -108,6 +109,7 @@ class Course(): # pylint: disable=too-few-public-methods
                     try:
                         self.Credit_level = row[1]
                         self.Availability = row[3]
+                                            
                     except:
                         pass
                     
@@ -125,7 +127,9 @@ class Course(): # pylint: disable=too-few-public-methods
                
             except IndexError:
                 pass
-       
+        #print(f"Credit_level: {self.Credit_level}")    
+        self.Year = self.ParseCreditLevel(self.Credit_level)       
+        
     def ParseDelivery(self):   
         
         data = self.GetTableData("Course Delivery Information")
@@ -163,6 +167,19 @@ class Course(): # pylint: disable=too-few-public-methods
             if not (what == ""):
                 self.Activities[what] = hours
         
-                    
-
+    def ParseCreditLevel(self, credit_level):
+        year_pattern = regex.compile('\((.*)\)')
+        ug_pattern = regex.compile('\(\s*Year\s*([0-9])\s*\w*\)')
+        
+        year = year_pattern.findall(credit_level)
+        if year is not None:
+            #print(f"year: {year}")
+            if year[0].strip().lower() == "postgraduate":
+                  return "pg"
+            else:
+                ug = ug_pattern.findall(credit_level)
+                if ug is not None:
+                    return ug[0]
+            
+        return ""    
     
