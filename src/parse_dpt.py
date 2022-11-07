@@ -16,7 +16,7 @@ if __name__ == "__main__":
     else:
         
         
-        courses = parse.directory('/home/tim/websites/DPRS-SoE/www.drps.ed.ac.uk/21-22/dpt')
+        courses = parse.directory('../dpt')
         
         for c in courses:
             if c.School == "School of Engineering":

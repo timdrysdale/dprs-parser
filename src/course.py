@@ -149,6 +149,12 @@ class Course(): # pylint: disable=too-few-public-methods
                    self.Start = row[1]
                elif label.startswith("Learning"):
                    self.ActivitiesText = row[1].replace("\n", " ")
+               elif label.startswith("Assessment"):
+                  self.AssessmentText = row[1].replace("\n", " ")
+               elif label.startswith("Additional Information"):
+                  self.AdditionalInformationText = row[1].replace("\n", " ")                  
+               elif label.startswith("Feedback"):
+                  self.FeedbackText = row[1].replace("\n", " ")     
            except IndexError:
                pass
         
@@ -166,6 +172,18 @@ class Course(): # pylint: disable=too-few-public-methods
             hours = int(element[2])
             if not (what == ""):
                 self.Activities[what] = hours
+                
+        # use same pattern
+        m = pattern.findall(self.AssessmentText)
+        self.Assessments = {}
+        for element in m:
+            what = element[1].strip()
+            percentage = int(element[2])
+            if not (what == ""):
+                self.Assessments[what] = percentage
+                
+                
+                
         
     def ParseCreditLevel(self, credit_level):
         year_pattern = regex.compile('\((.*)\)')

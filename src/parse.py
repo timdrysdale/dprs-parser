@@ -1,5 +1,5 @@
 """
-Analyse
+Process html files representing courses
 """
 
 import course

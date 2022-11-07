@@ -84,8 +84,24 @@ class TestCourse(unittest.TestCase):
         }
         
         self.assertEqual(c.Activities,activities)
-
         
+        assessment_text = 'Written Exam 0 %, Coursework 100 %, Practical Exam 0 %'
+        
+        assessments = {
+                'Written Exam': 0,
+                'Coursework': 100,
+                'Practical Exam': 0
+            }
+        self.assertEqual(c.AssessmentText,assessment_text)
+        self.assertEqual(c.Assessments,assessments)
+        
+        additional_information_text = '100% Coursework' 
+        feedback_text = 'Formative feedback is given in the form of a take home exam-level question answered by the students during a tutorial session.  Student submit then solution is then discussed, indicating the common errors made by students and presenting a marking template for the students to self- or peer-mark.'
+   
+        self.assertEqual(c.AdditionalInformationText, additional_information_text)
+        self.assertEqual(c.FeedbackText, feedback_text)
+        
+   
         
 if __name__ == "__main__":
     unittest.main()
