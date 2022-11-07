@@ -1,0 +1,319 @@
+Code,Name,Organiser,Year,Credits,Semester,Written Exam %,Coursework %,Practical Exam %
+CHEE08013,Separation Processes 2,Dr Enzo Mangano,2,10.0,Semester 1,100,0,0
+CHEE08012,Introduction to Biochemical Engineering 2,Dr George Serghiou,2,10.0,Semester 2,80,20,0
+CHEE08016,Process Plant Engineering 2,Dr Michael Chen,2,10.0,Semester 2,80,20,0
+CHEE08017,Chemistry and Processes 2,Dr Timm Krueger,2,10.0,Semester 1,60,40,0
+CHEE09015,Chemical Engineering Design 3,Dr Kevin Hanley,3,20.0,Full Year,0,100,0
+CHEE09014,Process Dynamics and Control 3,Dr Rodrigo Ledesma Aguilar,3,10.0,Semester 2,100,0,0
+CHEE09019,Process Safety and Environmental Issues in Chemical Engineering 3,Dr Dimitri Mignard,3,20.0,Semester 2,100,0,0
+CHEE09010,Chemical Engineering Kinetics and Catalysis 3,Dr Francisco Garcia Garcia,3,10.0,Semester 1,100,0,0
+CHEE09013,"Heat, Mass and Momentum Transfer 3",Dr Gail Duursma,3,20.0,Full Year,100,0,0
+CHEE09020,Chemical Engineering Thermodynamics 3,Dr Santiago Romero-Vargas Castrillon,3,10.0,Semester 1,100,0,0
+CHEE09016,Chemical Engineering Laboratory 3,Dr Daniel Orejon Mantecon,3,10.0,Semester 2,0,100,0
+CHEE09021,Chemical Engineering Unit Operations 3,Prof Stefano Brandani,3,10.0,Semester 2,100,0,0
+CHEE09008,Solids Processing 3,Prof Xianfeng Fan,3,10.0,Semester 1,100,0,0
+CHEE10008,Chemical Reaction Engineering 4,Dr Harvey Huang,4,10.0,Semester 1,100,0,0
+CHEE11015,Polymer Science and Engineering 5,Dr Cher Hon Lau,4,10.0,Semester 2,100,0,0
+CHEE08018,Practical Skills in Chemical Engineering,Dr Daniel Orejon Mantecon,4,0.0,Full Year,0,0,100
+CHEE10005,Chemical Engineering Design: Synthesis and Economics 4,Dr Enzo Mangano,4,10.0,Semester 1,0,100,0
+CHEE10010,Chemical Engineering Design 4,Dr Wei Li,4,10.0,Semester 1,0,100,0
+CHEE10004,Fluid Mechanics (Chemical) 4,Prof Prashant Valluri,4,10.0,Semester 1,0,100,0
+CHEE10009,Chemical Engineering Study Project 4,Dr Tayebeh Ameri,4,10.0,Full Year,0,100,0
+CHEE10002,Chemical Engineering Design: Projects 4,Dr Jennifer Skilling,4,40.0,Full Year,0,100,0
+CHEE11017,Chemical Engineering Research Project 5,Dr Rodrigo Ledesma Aguilar,5,40.0,Full Year,0,100,0
+CHEE11008,Batchwise and Semibatch Processing 5,Dr Jennifer Skilling,5,10.0,Semester 2,100,0,0
+CHEE11021,Separation Processes for Carbon Capture 5,Dr Hyungwoong Ahn,5,10.0,Semester 2,0,100,0
+CHEE11028,Electrochemical Engineering 5,Dr Nacho Tudela-Montes,5,10.0,Semester 2,100,0,0
+CHEE11016,Adsorption 5,Prof Stefano Brandani,5,10.0,Semester 2,80,20,0
+CHEE11030,Biotechnology and Bioprocess Engineering 5,Dr Simone Dimartino,5,10.0,Semester 2,100,0,0
+CHEE11024,Chemical Engineering Research Project (VS),Dr Rodrigo Ledesma Aguilar,5,60.0,Full Year,0,100,0
+CHEE11029,Advanced Process Safety 5,Dr Jennifer Skilling,5,10.0,Semester 2,100,0,0
+CHEE11031,Chemical Engineering Industrial/Overseas Research Project 5,Prof Prashant Valluri,5,60.0,Semester 1,0,100,0
+CHEE11020,Molecular Thermodynamics 5,Dr Martin Sweatman,5,10.0,Semester 1,50,50,0
+CHEE11026,Nanomaterials in Chemical and Biomedical Engineering 5,Dr Norbert Radacsi,5,10.0,Semester 2,100,0,0
+CHEE11023,Separation Processes 5,Dr Hyungwoong Ahn,5,10.0,Semester 2,100,0,0
+CHEE11033,Chemical Engineering Research Project 5,Dr Rodrigo Ledesma Aguilar,5,60.0,Semester 1,0,100,0
+CHEE11022,Gas Separations Using Membranes 5,Prof Maria-Chiara Ferrari,5,10.0,Semester 2,100,0,0
+CHEE11032,Advanced Chemical Engineering Design 5,Dr Hyungwoong Ahn,5,10.0,Semester 2,0,100,0
+CIVE08020,Tools for Engineering Design 2,Dr David Rush,2,10.0,Semester 2,0,100,0
+CIVE08024,Fire Science and Engineering 2,Dr Rory Hadden,2,10.0,Semester 1,70,30,0
+CIVE08025,Geotechnical Engineering 2,Dr Jin Sun,2,10.0,Semester 2,70,30,0
+CIVE08023,Environmental Engineering and Sustainability 2,Dr Andrea Correia Semiao,2,10.0,Semester 1,70,30,0
+CIVE08026,Structural Mechanics 2,Dr Thomas Reynolds,2,10.0,Semester 1,80,20,0
+CIVE09020,Environmental Engineering 3,Prof Lindsay Beevers,3,10.0,Semester 2,0,100,0
+CIVE09036,Structural Analysis 3,Prof Yong Lu,3,20.0,Semester 1,80,20,0
+CIVE09037,Civil Engineering Infrastructure and Construction 3,Dr Simon Smith,3,20.0,Full Year,40,60,0
+CIVE09016,Geotechnical Engineering 3,Prof Jin Ooi,3,20.0,Semester 2,70,30,0
+CIVE09023,Fire Safety Engineering 3,Dr Rory Hadden,3,10.0,Semester 2,0,100,0
+CIVE09038,Structural Engineering 3,Prof Dilum Fernando,3,10.0,Semester 2,0,100,0
+CIVE09034,Conceptual Design and Sustainability for Civil Engineers 3,Dr Yavuz Yardim,3,20.0,Full Year,0,100,0
+CIVE09035,"Water Engineering, Transport and Treatment 3",Dr Athanasios Angeloudis,3,20.0,Semester 1,80,20,0
+CIVE08027,Practical Skills in Civil Engineering,Dr Christopher Beckett,4,0.0,Full Year,0,0,100
+CIVE11051,Research Methods for Engineers 5,Dr Simon Smith,4,10.0,Semester 1,0,100,0
+CIVE10008,Water and Wastewater Systems 4,Dr Efthalia Chatzisymeon,4,10.0,Semester 2,80,20,0
+CIVE10030,Steel Structures 4,Dr Yuner Huang,4,10.0,Semester 1,55,45,0
+CIVE10006,Hydraulic Engineering 4,Dr Athanasios Angeloudis,4,10.0,Semester 2,100,0,0
+CIVE10004,Foundation Engineering 4,Dr Christopher Beckett,4,10.0,Semester 1,100,0,0
+CIVE10011,Fire Science and Fire Dynamics 4,Dr Richard Carvel,4,10.0,Semester 1,80,20,0
+CIVE10013,BEng Thesis 4 (Civil & Environmental Engineering),Dr Richard Carvel,4,40.0,Full Year,0,100,0
+CIVE10028,Fire Safety Engineering 4,Dr Stephen Welch,4,10.0,Semester 1,80,20,0
+CIVE10022,Finite Element Methods for Solids and Structures 4,Dr Stefanos Papanicolopulos,4,10.0,Semester 1,60,40,0
+CIVE10031,BEng Civil Engineering Design Project 4,Dr Julio Bros-Williamson,4,10.0,Semester 2,0,100,0
+CIVE10029,Concrete Structures 4,Dr Hwa Kian Chai,4,10.0,Semester 2,55,45,0
+CIVE11053,Learning from Engineering Failures 5,Prof Luke Bisby,5,10.0,Semester 2,0,100,0
+CIVE11052,Fire Science 5,Dr Rory Hadden,5,10.0,Semester 1,100,0,0
+CIVE11034,Structural Dynamics and Earthquake Engineering 5,Dr Pankaj Pankaj,5,10.0,Semester 1,100,0,0
+CIVE11029,The Finite Element Method 5,Dr Stefanos Papanicolopulos,5,10.0,Semester 2,60,40,0
+CIVE11047,Fire Science Laboratory 5,Dr Stephen Welch,5,10.0,Semester 2,0,100,0
+CIVE11050,Infrastructure Sensing using Ground Penetrating Radar 5,Dr Antonios Giannopoulos,5,10.0,Semester 2,50,50,0
+CIVE11031,MEng Thesis 5 (Discipline of Civil & Environmental Engineering),Dr Richard Carvel,5,40.0,Full Year,0,100,0
+CIVE11025,Mechanics of Repairing and Strengthening Structures 5,Dr Giovanni Terrasi,5,10.0,Semester 1,100,0,0
+CIVE11044,Structural Design for Fire 5,Dr Angus Law,5,10.0,Semester 1,100,0,0
+CIVE11049,Models for Fire Safety 5,Dr Richard Carvel,5,10.0,Semester 2,0,100,0
+CIVE11038,Structural Engineering Design Project 5,Dr Yuner Huang,5,20.0,Semester 2,0,100,0
+CIVE11045,Fire Safety Engineering Design Project 5,Dr Angus Law,5,20.0,Semester 2,0,100,0
+ELEE08020,Microelectronics 2,Dr Philip Hands,2,10.0,Semester 1,80,20,0
+ELEE08021,Sensor Networks and Data Analysis 2,Dr James Hopgood,2,10.0,Semester 2,70,30,0
+ELEE08022,Software and Embedded Systems Laboratory 2,Dr John Thompson,2,10.0,Semester 2,0,100,0
+ELEE08015,Digital System Design 2,Dr Mehrdad Yaghoobi Vaighan,2,10.0,Semester 2,50,50,0
+ELEE08016,Analogue Circuits 2,Dr David Laurenson,2,10.0,Semester 1,80,20,0
+ELEE09027,Signals and Communication Systems 3,Dr Mehrdad Yaghoobi Vaighan,3,10.0,Semester 2,70,30,0
+ELEE09034,Microelectronics with Design and Manufacturing 3,Dr Jonathan Terry,3,20.0,Semester 1,90,10,0
+ELEE09023,Electromagnetics 3: Signal Transmission,Dr Philip Hands,3,10.0,Semester 2,80,20,0
+ELEE09032,Analogue Mixed Signal Laboratory 3,Dr Wasiu Popoola,3,10.0,Semester 2,0,100,0
+ELEE09016,Engineering Software 3,Prof Tughrul Arslan,3,10.0,Semester 1,0,100,0
+ELEE09026,Analogue Circuits 3,Dr Chang Liu,3,10.0,Semester 1,100,0,0
+ELEE09024,Digital System Design 3,Dr Alister Hamilton,3,10.0,Semester 1,100,0,0
+ELEE09029,"Power Systems, Power Electronics and Machines 3",Dr Jonathan Shek,3,20.0,Semester 2,60,40,0
+ELEE09035,Digital System Design and Digital Systems Laboratory 3,Dr Alister Hamilton,3,20.0,Semester 1,50,50,0
+ELEE08024,Practical Skills in Power Engineering,Dr Jonathan Shek,4,0.0,Full Year,0,0,100
+ELEE11110,Introduction to Bioelectronics 4,Dr Adam Stokes,4,20.0,Semester 1,100,0,0
+ELEE10031,Data Analysis and Machine Learning 4,Dr Elliot Crowley,4,10.0,Semester 2,0,100,0
+ELEE10027,"Power Electronics, Machines and Systems 4",Prof Stephen Finney,4,20.0,Semester 1,100,0,0
+ELEE10007,Digital System Design 4,Dr Chang Liu,4,10.0,Semester 2,100,0,0
+ELEE10017,Professional Issues for Engineers 4,Dr Jonathan Terry,4,10.0,Semester 2,30,70,0
+ELEE10020,Analogue Electronics (Circuits) 4,Dr Srinjoy Mitra,4,10.0,Semester 2,100,0,0
+ELEE10023,Digital Systems Laboratory,Dr Alister Hamilton,4,10.0,Semester 2,0,100,0
+ELEE10028,Radio Frequency Engineering 4,Prof Tughrul Arslan,4,10.0,Semester 2,100,0,0
+ELEE11095,MEng Electronics and Electrical Engineering Project Phase One (External),Dr Stewart Smith,4,20.0,Semester 2,0,100,0
+ELEE10006,Digital Communications 4,Dr Majid Safari,4,10.0,Semester 1,80,20,0
+ELEE10011,BEng Electronics and Electrical Engineering Project 4,Dr Stewart Smith,4,40.0,Full Year,0,100,0
+ELEE10003,Microelectronic Device Principles 4,Prof Ian Underwood,4,10.0,Semester 1,100,0,0
+ELEE10010,Digital Signal Analysis 4,Dr Javier Escudero Rodriguez,4,10.0,Semester 1,0,100,0
+ELEE10030,Distributed Energy Resources and Smart Grids 4,Dr Michael Merlin,4,20.0,Semester 1,0,100,0
+ELEE10021,Analogue Electronics (Project) 4,Dr Srinjoy Mitra,4,20.0,Full Year,0,100,0
+ELEE11107,Data Converter Design in Simulink 5,Dr Istvan Gyongy,4,10.0,Block 3 (Sem 2),0,100,0
+ELEE11091,MEng Electronics and Electrical Engineering Project Phase One (Internal),Dr Stewart Smith,4,20.0,Semester 2,0,100,0
+ELEE11092,Advanced Coding Techniques 5,Dr John Thompson,5,10.0,Semester 2,100,0,0
+ELEE11054,Power Systems Engineering 5,Dr Sasa Djokic,5,20.0,Semester 2,0,100,0
+ELEE11089,MEng Electronics and Electrical Engineering Project Phase Two (External),Prof Tughrul Arslan,5,60.0,Full Year,0,100,0
+ELEE11085,Solar Energy Conversion 5,Dr Aristides Kiprakis,5,10.0,Semester 2,0,100,0
+ELEE11090,MEng Electronics and Electrical Engineering Project Phase Two (Internal),Prof Tughrul Arslan,5,60.0,Full Year,0,100,0
+ELEE11097,Lab-on-Chip Technologies 5,Dr Filippo Menolascina,5,10.0,Semester 2,100,0,0
+ELEE11093,Advanced Wireless Communications 5,Prof Tharmalingam Ratnarajah,5,10.0,Semester 2,100,0,0
+ELEE11106,Data Converter Design in Cadence 5,Dr Robert Henderson,5,10.0,Blocks 4-5 (Sem 2),0,100,0
+ELEE11073,Analogue Electronics (Project) 5,Dr Robert Henderson,5,20.0,Semester 2,0,100,0
+ELEE11111,Radio Frequency (RF) and Microwave Circuits and Systems 5,Dr Symon Podilchak,5,10.0,Semester 2,80,20,0
+ELEE11083,Embedded Mobile and Wireless Systems (EWireless) 5,Prof Tughrul Arslan,5,20.0,Semester 2,0,100,0
+ELEE11103,Machine Learning in Signal Processing 5,Prof Sotirios Tsaftaris,5,10.0,Semester 2,100,0,0
+ELEE11104,Advanced Power Electronics and Machines 5,Dr Markus Mueller,5,20.0,Semester 2,100,0,0
+ELEE11109,Sensors and Instrumentation 5,Dr Stewart Smith,5,10.0,Semester 2,100,0,0
+ELEE11049,Principles of Microelectronic Devices,Prof Ian Underwood,pg,10.0,Semester 1,70,30,0
+ELEE11043,Analogue VLSI B,Dr Robert Henderson,pg,20.0,Semester 2,0,100,0
+ELEE11044,Analogue IC Design,Dr Danial Chitnis,pg,10.0,Semester 1,100,0,0
+ELEE11045,Analogue circuit design,Dr Srinjoy Mitra,pg,10.0,Semester 2,100,0,0
+MAEE10005,Engineering Project Management 4,Dr Simon Smith,4,10.0,Semester 1,100,0,0
+MAEE10002,Supply Chain Management 4,Dr Ashley Lloyd,4,10.0,Semester 2,100,0,0
+MAEE10003,Operations Management 4,Dr Stephen Harwood,4,10.0,Semester 1,0,100,0
+MAEE11004,Technology and Innovation Management 5,Dr Matjaz Vidmar,5,10.0,Semester 2,0,100,0
+MAEE11005,Technology Entrepreneurship 5,Dr Matjaz Vidmar,5,10.0,Semester 2,0,100,0
+MECE08013,Practical Skills in Mechanical Engineering,Dr Andrew Downes,2,0.0,Full Year,0,0,100
+MECE08009,Dynamics 2,Dr John Chick,2,10.0,Semester 2,50,50,0
+MECE09030,Conceptual Design for Mechanical Engineers 3,Dr Nan Yu,3,10.0,Semester 2,0,100,0
+MECE09026,Sustainable Energy Group Design Project 3,Dr Parvez Alam,3,10.0,Semester 2,0,100,0
+MECE09032,Manufacture 3,Dr Anthony Callanan,3,20.0,Semester 1,50,50,0
+MECE09036,Structural Mechanics and Dynamics 3,Dr Livio Gibelli,3,20.0,Semester 1,80,20,0
+MECE09033,Computational Methods and Modelling 3,Dr Antonio Attili,3,10.0,Semester 1,50,50,0
+MECE09034,Thermofluids 3,Dr Rohit Pillai,3,20.0,Semester 2,40,60,0
+MECE11007,Industrial/European Placement 4,Mr Stephen Warrington,4,60.0,Semester 2,0,100,0
+MECE10017,Design of Surgical Tools and Implanted Medical Devices 4,Dr Anthony Callanan,4,10.0,Semester 2,80,20,0
+MECE10008,BEng Mechanical Engineering Project 4,Dr Livio Gibelli,4,40.0,Semester 2,0,100,0
+MECE10012,Thermodynamics (Mechanical) 4,Ms Erika Palfi,4,10.0,Semester 1,100,0,0
+MECE10002,Dynamics 4,Dr Filipe Teixeira-Dias,4,10.0,Semester 1,100,0,0
+MECE10009,Polymers and Composite Materials 4,Dr Dipa Roy,4,10.0,Semester 1,60,40,0
+MECE10004,Fluid Mechanics (Mechanical) 4,Dr Chandan Bose,4,10.0,Semester 1,100,0,0
+MECE10015,Bio-Inspired Engineering 4,Dr Katherine Dunn,4,10.0,Semester 2,0,100,0
+MECE10007,Mechanical Engineering Group Project 4,Dr Parvez Alam,4,20.0,Semester 1,0,100,0
+MECE11008,Wind Energy 5,Prof Alasdair McDonald,5,10.0,Semester 2,0,100,0
+MECE11017,Digital Manufacture 5,Dr Sina Haeri,5,10.0,Semester 2,0,100,0
+MECE11006,Mechanical Engineering MEng Individual Project 5,Dr Andrew Downes,5,40.0,Full Year,0,100,0
+MECE11016,Advanced Composite Materials 5,Dr Dongmin Yang,5,20.0,Full Year,0,100,0
+MECE11018,Surface Engineering and Coatings 5,Prof Vasileios Koutsos,5,10.0,Semester 2,80,20,0
+MECE11015,Dynamics 5,Dr Francisca Martinez-Hergueta,5,10.0,Semester 2,65,35,0
+MECE11009,Marine Energy 5,Prof Vengatesan Venugopal,5,10.0,Semester 2,100,0,0
+MECE11004,Computational Fluid Dynamics 5,Prof David Ingram,5,20.0,Semester 1,50,50,0
+MECE11001,Marine Energy (MSc),Prof Vengatesan Venugopal,pg,10.0,Semester 2,100,0,0
+PGEE10037,Power Engineering Fundamentals (MSc),Prof Stephen Finney,pg,20.0,Semester 1,100,0,0
+PGEE10026,Supply Chain Management (MSc),Dr Ashley Lloyd,pg,10.0,Semester 2,100,0,0
+PGEE10041,Radio Frequency Engineering (MSc),Prof Tughrul Arslan,pg,10.0,Semester 2,100,0,0
+PGEE10039,Fire Safety Engineering (MSc),Dr Stephen Welch,pg,10.0,Semester 1,80,20,0
+PGEE11108,Digital Signal Processing Laboratory (MSc),Dr Michael Davies,pg,10.0,Semester 2,0,100,0
+PGEE11157,Batchwise and Semibatch Processing (MSc),Dr Jennifer Skilling,pg,10.0,Semester 2,100,0,0
+PGEE11213,Metrology (MSc),Dr Nan Yu,pg,10.0,Semester 1,0,100,0
+PGEE11233,Learning from Engineering Failures (MSc),Prof Luke Bisby,pg,10.0,Semester 2,0,100,0
+PGEE11035,Dissertation (MSc in Structural and Fire Safety Engineering),Dr Stephen Welch,pg,60.0,Block 5 (Sem 2) and beyond,0,100,0
+PGEE10029,Finite Element Analysis for Solids (IMFSE),Dr Stefanos Papanicolopulos,pg,12.0,Semester 1,60,40,0
+PGEE11044,Research Project Preparation,Dr Rebecca Cheung,pg,10.0,Semester 2,0,100,0
+PGEE10012,Engineering Project Management (MSc),Dr Simon Smith,pg,10.0,Semester 1,100,0,0
+PGEE11220,Introduction to Bioelectronics (MSc),Dr Adam Stokes,pg,20.0,Semester 1,80,20,0
+PGEE11121,Advanced Coding Techniques (MSc),Dr John Thompson,pg,10.0,Semester 2,100,0,0
+PGEE11104,Management of the Project Lifecycle (IDCORE),Mr Stephen Warrington,pg,10.0,Full Year,-,-,-
+PGEE11228,Interdisciplinary Group Challenge in Ageing and Care,Prof Ian Underwood,pg,20.0,Semester 2,0,100,0
+PGEE11236,Advanced Analogue IC Design (MSc),Dr Srinjoy Mitra,pg,10.0,Semester 2,100,0,0
+PGEE11055,Computational Fluid Dynamics (MSc),Prof David Ingram,pg,20.0,Semester 1,50,50,0
+PGEE11239,Research Phase Year 1 - Intermediate Report (IDCORE),Prof David Ingram,pg,10.0,Flexible,0,100,0
+PGEE11240,Research Phase Year 2 - Intermediate Report (IDCORE),Prof David Ingram,pg,10.0,Flexible,0,100,0
+PGEE11172,Introduction to Research Methods (MSc),Dr Dimitrios Gerogiorgis,pg,20.0,Full Year,0,100,0
+PGEE11231,Analogue VLSI Project,Dr Danial Chitnis,pg,10.0,Semester 2,0,100,0
+PGEE11051,Structural Dynamics and Earthquake Engineering,Dr Pankaj Pankaj,pg,10.0,Semester 1,100,0,0
+PGEE10040,Design of Surgical Tools and Implanted Medical Devices (MSc),Dr Anthony Callanan,pg,10.0,Semester 2,80,20,0
+PGEE11120,Advanced Wireless Communications (MSc),Prof Tharmalingam Ratnarajah,pg,10.0,Semester 2,100,0,0
+PGEE11212,Industrial Robotics (MSc),Dr Francesco Giorgio-Serchi,pg,10.0,Semester 1,0,100,0
+PGEE11208,Research Methods in Programme Management (MSc),Dr Simon Smith,pg,10.0,Block 5 (Sem 2) and beyond,0,100,0
+PGEE10036,Distributed Energy Resources and Smart Grids (MSc),Dr Michael Merlin,pg,20.0,Semester 1,0,100,0
+PGEE10001,Technologies for Sustainable Energy,Dr Camilla Thomson,pg,10.0,Semester 1,0,100,0
+PGEE11234,Data Science for Manufacturing (Bayes),Prof Jonathan Corney,pg,10.0,Semester 2,0,100,0
+PGEE11160,Dissertation (IMFSE),Dr Rory Hadden,pg,60.0,Semester 2,0,100,0
+PGEE11092,Hydrodynamics of Offshore Renewable Energy Devices (IDCORE),Prof David Ingram,pg,10.0,Semester 1,-,-,-
+PGEE11038,Microfabrication Techniques,Dr Jonathan Terry,pg,10.0,Semester 2,100,0,0
+PGEE11081,Adsorption (MSc),Prof Stefano Brandani,pg,10.0,Semester 2,80,20,0
+PGEE11211,Digital Design and Manufacture Group Design Project (MSc),Prof Jonathan Corney,pg,10.0,Semester 1,0,100,0
+PGEE11192,Developing and Managing Innovative Organisations (IDCORE),Dr Sarah Cooper,pg,10.0,Flexible,0,100,0
+PGEE11115,Embedded Mobile and Wireless Systems (EWireless) (MSc),Prof Tughrul Arslan,pg,20.0,Semester 2,0,100,0
+PGEE11046,The Finite Element Method,Dr Stefanos Papanicolopulos,pg,10.0,Semester 2,60,40,0
+PGEE11100,Moorings and Reliability (IDCORE),Prof David Ingram,pg,10.0,Block 5 (Sem 2) and beyond,0,100,0
+PGEE11237,Radio Frequency (RF) and Microwave Circuits and Systems (MSc),Dr Symon Podilchak,pg,10.0,Semester 2,80,20,0
+PGEE11242,Advanced Chemical Engineering Design (MSc),Dr Hyungwoong Ahn,pg,10.0,Semester 2,0,100,0
+PGEE11183,Research Skills (IDCORE),Prof David Ingram,pg,10.0,Full Year,0,100,0
+PGEE11093,Cross-disciplinary Engineering Science Foundations (IDCORE),Prof Tom Bruce,pg,10.0,Full Year,0,100,0
+PGEE11024,Electrical Engineering Fundamentals of Renewable Energy,Dr Jonathan Shek,pg,10.0,Semester 1,100,0,0
+PGEE11133,"CDT-ISM credits awarded at U of Glasgow, semester 1, Research Methods in Sensing and Measurement",Prof Ian Underwood,pg,20.0,Semester 1,0,10,90
+PGEE11091,Electromechanical & Electronic Energy Conversion Systems (IDCORE),Dr Markus Mueller,pg,10.0,Full Year,0,100,0
+PGEE11165,Electrical Power Engineering Dissertation (MSc),Dr Thomas Morstyn,pg,60.0,Block 5 (Sem 2) and beyond,0,100,0
+PGEE11229,Individual Project in Ageing and Care,Dr Nicholas Polydorides,pg,60.0,Block 5 (Sem 2) and beyond,0,100,0
+PGEE11103,Regulation in the Offshore Renewable Sector (IDCORE),Prof David Ingram,pg,10.0,Full Year,-,-,-
+PGEE11131,"CDT-ISM, credits awarded at U of Glasgow, semester 1, Nanofabrication",Prof Ian Underwood,pg,10.0,Semester 1,0,100,0
+PGEE11096,Marine Renewables and the Environment (IDCORE),Prof David Ingram,pg,10.0,Full Year,0,100,0
+PGEE11132,"CDT-ISM credits awarded at Glasgow, semester 1, Fundamentals of Sensing and Measurement",Prof Ian Underwood,pg,20.0,Semester 1,70,30,0
+PGEE11156,Separation Processes (MSc),Dr Hyungwoong Ahn,pg,10.0,Semester 2,100,0,0
+PGEE11141,Structural Design for Fire (IMFSE),Dr Angus Law,pg,12.0,Semester 1,100,0,0
+PGEE11087,"Marine Operations, Condition Monitoring and Reliability (IDCORE)",Prof David Ingram,pg,10.0,Semester 2,-,-,-
+PGEE11177,Electrochemical Engineering (MSc),Dr Nacho Tudela-Montes,pg,10.0,Semester 2,100,0,0
+PGEE11016,Power Systems Engineering and Economics,Dr Sasa Djokic,pg,20.0,Semester 2,0,100,0
+PGEE11198,Data Converter Design in Cadence (MSc),Dr Robert Henderson,pg,10.0,Blocks 4-5 (Sem 2),0,100,0
+PGEE11074,Molecular Thermodynamics (MSc),Dr Martin Sweatman,pg,10.0,Semester 1,50,50,0
+PGEE11202,Design and Performance of Delivery Enterprise (MSc),Dr Simon Smith,pg,10.0,Semester 1,0,100,0
+PGEE11169,Numerical Methods for Chemical Engineers (MSc),Dr Daniel Friedrich,pg,20.0,Semester 1,0,100,0
+PGEE11065,Electronics: Project and Thesis (MSc),Dr Adam Stokes,pg,60.0,Block 5 (Sem 2) and beyond,0,100,0
+PGEE11124,Array Processing and MIMO Systems (MSc),Prof Tharmalingam Ratnarajah,pg,10.0,Semester 2,0,100,0
+PGEE11023,Mechanical Engineering Fundamentals of Renewable Energy,Dr John Chick,pg,10.0,Semester 1,100,0,0
+PGEE11163,Particle Technology Fundamentals and Industrial Applications (MSc),Dr Jin Sun,pg,10.0,Semester 2,60,40,0
+PGEE11235,O&M Robotics and Sensors (IDCORE),Dr Adam Stokes,pg,10.0,Flexible,0,100,0
+PGEE11113,Offshore Renewable Energy Dissertation (IDCORE),Prof David Ingram,pg,60.0,Block 5 (Sem 2) and beyond,0,100,0
+PGEE11075,Gas Separations Using Membranes (MSc),Prof Maria-Chiara Ferrari,pg,10.0,Semester 2,100,0,0
+PGEE11184,Advanced Process Safety (MSc),Dr Jennifer Skilling,pg,10.0,Semester 2,100,0,0
+PGEE09001,Sustainable Energy Contexts (MSc),Prof Tom Bruce,pg,10.0,Semester 1,0,100,0
+PGEE11197,Technology Entrepreneurship (MSc),Dr Matjaz Vidmar,pg,10.0,Semester 2,0,100,0
+PGEE11216,Manufacturing Information Systems (MSc),Prof Jonathan Corney,pg,10.0,Semester 2,0,100,0
+PGEE11088,Economic and Policy Analysis for Offshore Renewables (IDCORE),Prof David Ingram,pg,10.0,Full Year,0,100,0
+PGEE11225,Research Methods for Engineers (MSc),Dr Simon Smith,pg,10.0,Semester 1,0,100,0
+PGEE11152,Polymer Science and Engineering (MSc),Dr Cher Hon Lau,pg,10.0,Semester 2,100,0,0
+PGEE11195,Engineering Research Methods with Grand Challenge (MSc) (10 credits),Dr David Garcia Cava,pg,10.0,Semester 1,0,100,0
+PGEE11140,Structural Design for Fire (MSc),Dr Angus Law,pg,10.0,Semester 1,100,0,0
+PGEE11221,Eco-Engineering (IDCORE),Prof Lars Johanning,pg,10.0,Flexible,0,100,0
+PGEE11095,Marine Renewables and Society (IDCORE),Prof David Ingram,pg,10.0,Flexible,0,100,0
+PGEE11019,Adaptive Signal Processing,Prof Bernie Mulgrew,pg,10.0,Semester 2,100,0,0
+PGEE10020,"CDT-ISM, credits awarded at U of Glasgow, semester 1, Lasers and Electro-optic systems M4",Prof Ian Underwood,pg,20.0,Semester 1,75,25,0
+PGEE11230,Analogue VLSI Lab,Dr Srinjoy Mitra,pg,10.0,Semester 1,0,100,0
+PGEE11219,Sensors and Instrumentation (MSc),Dr Stewart Smith,pg,10.0,Semester 2,80,20,0
+PGEE11137,Fire Science Laboratory (MSc),Dr Stephen Welch,pg,10.0,Semester 2,0,100,0
+PGEE11243,Fire Science Laboratory (IMFSE),Dr Rory Hadden,pg,20.0,Semester 1,0,100,0
+PGEE11190,"Resilience, Regulation & Certification (IDCORE)",Prof Philipp Thies,pg,10.0,Flexible,0,100,0
+PGEE10008,Digital System Design (MSc),Dr Chang Liu,pg,10.0,Semester 2,100,0,0
+PGEE11241,"Governance, Oversight, Assurance and Stakeholder Engagement (MSc)",Dr Simon Smith,pg,10.0,Semester 1,0,100,0
+PGEE11136,Applications of Sensor and Imaging Systems,Dr Srinjoy Mitra,pg,10.0,Semester 2,0,100,0
+PGEE10025,Chemical Reaction Engineering (MSc),Dr Harvey Huang,pg,10.0,Semester 1,100,0,0
+PGEE11117,Digital Systems Laboratory (MSc),Dr Alister Hamilton,pg,10.0,Semester 2,0,100,0
+PGEE10023,"CDT-ISM, credits awarded at U of Glasgow, semester 1, Circuits and systems",Prof Ian Underwood,pg,10.0,Semester 1,100,0,0
+PGEE11215,Geometric Computing (MSc),Prof Jonathan Corney,pg,10.0,Semester 2,0,100,0
+PGEE11175,Machine Learning in Signal Processing (MSc),Prof Sotirios Tsaftaris,pg,10.0,Semester 2,100,0,0
+PGEE11182,Advanced Power Engineering Dissertation,Dr Aristides Kiprakis,pg,120.0,Full Year,0,100,0
+PGEE11188,Materials and Structures for Offshore Renewables (IDCORE),Dr Edward McCarthy,pg,10.0,Full Year,0,100,0
+PGEE11138,Fire Science Laboratory (IMFSE),Dr Rory Hadden,pg,18.0,Semester 1,0,100,0
+PGEE11232,Advanced Composite Materials (MSc),Dr Dongmin Yang,pg,20.0,Full Year,0,100,0
+PGEE11217,Digital Design and Manufacture Dissertation,Dr Sam Tammas-Williams,pg,60.0,Block 5 (Sem 2) and beyond,0,100,0
+PGEE11102,"Electricity Network Interaction, Integration and Control (IDCORE)",Prof Robin Wallace,pg,10.0,Semester 2,-,-,-
+PGEE11098,Structural Behaviour of Offshore Renewable Energy Devices (IDCORE),Prof David Ingram,pg,10.0,Semester 2,-,-,-
+PGEE11185,Biotechnology and Bioprocess Engineering (MSc),Dr Simone Dimartino,pg,10.0,Semester 2,100,0,0
+PGEE11021,Image Processing,Dr Javier Escudero Rodriguez,pg,10.0,Semester 1,0,100,0
+PGEE10018,Discrete-time Signal Analysis (MSc),Dr Javier Escudero Rodriguez,pg,10.0,Semester 1,0,100,0
+PGEE11226,Further Fire Science (IMFSE),Dr Rory Hadden,pg,18.0,Semester 1,60,40,0
+PGEE10035,Bio-Inspired Engineering (MSc),Dr Katherine Dunn,pg,10.0,Semester 2,0,100,0
+PGEE11097,Innovation Design and Manufacturing Management (IDCORE),Dr Frank Mill,pg,10.0,Full Year,-,-,-
+PGEE11151,Advanced Chemical Engineering Dissertation (MSc),Dr Dimitrios Gerogiorgis,pg,60.0,Block 5 (Sem 2) and beyond,0,100,0
+PGEE11134,"CDT-ISM, credits awarded at U of Glasgow, semester 1, Digital signal processing",Prof Ian Underwood,pg,20.0,Semester 1,70,30,0
+PGEE11199,Ocean to End User (IDCORE),Prof David Ingram,pg,10.0,Flexible,0,100,0
+PGEE11187,Interdisciplinary Group Design Project (IDCORE),Prof Tom Bruce,pg,20.0,Full Year,0,100,0
+PGEE11130,"CDT-ISM, credits awarded at Glasgow, semester 1, detection and analysis of ionising radiation",Prof Ian Underwood,pg,10.0,Semester 1,0,0,100
+PGEE10002,Fire Science and Fire Dynamics,Dr Richard Carvel,pg,10.0,Semester 1,80,20,0
+PGEE11164,"Probability, Estimation Theory and Random Signals (PETARS) (MSc)",Dr James Hopgood,pg,20.0,Semester 1,100,0,0
+PGEE11150,Oil and Gas Systems Engineering (MSc),Dr Dimitrios Gerogiorgis,pg,10.0,Semester 2,80,20,0
+PGEE10006,Finite Element Analysis for Solids (MSc),Dr Stefanos Papanicolopulos,pg,10.0,Semester 1,60,40,0
+PGEE11042,Lab-on-Chip Technologies,Dr Filippo Menolascina,pg,10.0,Semester 2,80,20,0
+PGEE11174,Models for Fire Safety (MSc),Dr Richard Carvel,pg,10.0,Semester 2,0,100,0
+PGEE11210,Additive and Computer Aided Manufacturing (MSc),Dr Sam Tammas-Williams,pg,10.0,Semester 1,0,100,0
+PGEE11161,Sustainable Energy Contexts (MSc),Prof Tom Bruce,pg,10.0,Semester 1,0,100,0
+PGEE11227,Introduction to Interdisciplinary Research and Innovation,Prof Tughrul Arslan,pg,10.0,Semester 1,0,100,0
+PGEE11089,Gaps and Compromises: Learning from Recent Projects and Schemes (IDCORE),Prof David Ingram,pg,10.0,Block 5 (Sem 2) and beyond,-,-,-
+PGEE11125,Technology and Innovation Management (MSc),Dr Matjaz Vidmar,pg,10.0,Semester 2,0,100,0
+PGEE11193,Marine Renewable Resource Assessment (IDCORE),Dr Helen Smith,pg,20.0,Full Year,0,100,0
+PGEE10022,"CDT-ISM, credits awarded at U of Glasgow, semester 1, Microelectronics in Consumer Products P4",Prof Ian Underwood,pg,10.0,Semester 1,90,10,0
+PGEE11045,Separation Processes For Carbon Capture,Dr Hyungwoong Ahn,pg,10.0,Semester 2,0,100,0
+PGEE11170,Nanomaterials in Chemical and Biomedical Engineering (MSc),Dr Norbert Radacsi,pg,10.0,Semester 2,100,0,0
+PGEE10019,Digital Communication Fundamentals (MSc),Dr Majid Safari,pg,10.0,Semester 1,80,20,0
+PGEE11010,Signal Processing & Communications: Project and Thesis,Dr Nicholas Polydorides,pg,60.0,Block 5 (Sem 2) and beyond,0,100,0
+PGEE11017,Sustainable Energy Systems Dissertation,Dr Brian Sellar,pg,60.0,Block 5 (Sem 2) and beyond,0,65,35
+PGEE11101,Marine Energy System Design Interdisciplinary Group Project (IDCORE),Prof Tom Bruce,pg,10.0,Semester 2,-,-,-
+PGEE11209,Leading Major Programmes Dissertation (MSc),Dr Frederic Bosche,pg,60.0,Block 5 (Sem 2) and beyond,0,100,0
+PGEE11036,Pre-Dissertation Project in Fire Safety Engineering,Dr Stephen Welch,pg,20.0,Semester 2,0,100,0
+PGEE11203,Managing Strategic Risk in Major Projects (MSc),Dr Simon Smith,pg,10.0,Semester 1,0,100,0
+PGEE11029,Principles of wind energy,Prof Alasdair McDonald,pg,10.0,Semester 2,0,100,0
+PGEE11200,Data Converter Design in Simulink (MSc),Dr Istvan Gyongy,pg,10.0,Semester 2,0,100,0
+PGEE11094,Introduction to Offshore Renewable Technologies (IDCORE),Prof David Ingram,pg,10.0,Semester 1,-,-,-
+PGEE11099,Physical Model Testing for Offshore Renewables (IDCORE),Prof David Ingram,pg,10.0,Semester 2,-,-,-
+PGEE11090,Marine Renewable Resource Assessment (IDCORE),Prof Vengatesan Venugopal,pg,10.0,Semester 1,-,-,-
+PGEE11189,Energy Systems (IDCORE),Dr Sasa Djokic,pg,10.0,Full Year,0,100,0
+PGEE11186,Offshore Engineering (IDCORE),Prof Lars Johanning,pg,10.0,Full Year,0,100,0
+PGEE11107,Solar Energy & Photovoltaic Systems (MSc),Dr Aristides Kiprakis,pg,10.0,Semester 2,0,100,0
+PGEE11218,Power Engineering Laboratory (MSc),Dr Paul Judge,pg,10.0,Semester 1,0,100,0
+PGEE11194,Advanced Power Electronics and Machines (MSc),Dr Markus Mueller,pg,20.0,Semester 2,100,0,0
+SCEE08012,Engineering Principles 1,Dr Simone Dimartino,1,20.0,Semester 1,0,100,0
+SCEE08011,Engineering Design 1,Dr Jonathan Terry,1,20.0,Semester 2,0,100,0
+SCEE08016,Materials 2,Dr Jane Blackford,2,10.0,Semester 2,80,20,0
+SCEE08008,Power Engineering 2,Dr Paul Judge,2,10.0,Semester 1,100,0,0
+SCEE08014,Programming Skills for Engineers 2,Prof David Ingram,2,10.0,Semester 1,0,100,0
+SCEE08003,Fluid Mechanics 2,Prof Tom Bruce,2,10.0,Semester 1,50,50,0
+SCEE08006,Engineering Thermodynamics 2,Dr Giulio Santori,2,10.0,Semester 2,80,20,0
+SCEE08010,Engineering Mathematics 2B,Dr Nicholas Polydorides,2,10.0,Semester 2,80,20,0
+SCEE08002,Structural Mechanics 2A,Dr Thomas Reynolds,2,10.0,Semester 1,0,100,0
+SCEE08018,Sensing in the Community 2,Dr Helen Szoor-McElhinney,2,20.0,Semester 2,0,100,0
+SCEE08009,Engineering Mathematics 2A,Dr Daniel Friedrich,2,10.0,Semester 1,50,50,0
+SCEE08017,Engineering Principles and Design 2,Dr Gary Wells,2,10.0,Semester 1,0,100,0
+SCEE08015,Professional Development for Engineers 2,Dr Angus Law,2,10.0,Semester 2,0,100,0
+SCEE09001,Professional Issues for Mechanical Engineers 3,Dr Katherine Dunn,3,10.0,Full Year,0,100,0
+SCEE09004,Partial Differential Equations 3,Dr Martin Sweatman,3,10.0,Semester 2,60,40,0
+SCEE09002,Control and Instrumentation Engineering 3,Dr Aristides Kiprakis,3,10.0,Semester 2,0,100,0
+SCEE11014,Interdisciplinary Group Design Project (Engineering),Dr Dongmin Yang,4,20.0,Semester 1,0,100,0
+SCEE11008,Oil and Gas Systems Engineering 5,Dr Dimitrios Gerogiorgis,5,10.0,Semester 2,80,20,0
+SCEE11011,Particle Technology Fundamentals and Industrial Applications 5,Dr Jin Sun,5,10.0,Semester 2,60,40,0
+SCEE11007,Membrane Separation Processes 5,Prof Maria-Chiara Ferrari,5,10.0,Semester 2,100,0,0

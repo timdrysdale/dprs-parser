@@ -31,7 +31,7 @@ class Course(): # pylint: disable=too-few-public-methods
         self.ParseKeywords()
         self.ParseOutline() 
         self.ParseDelivery()
-        
+        self.ParseContacts()
         self.Soup = None #save memory
             
             
@@ -72,7 +72,34 @@ class Course(): # pylint: disable=too-few-public-methods
            pass
        
        return data
+   
+    def ParseContacts(self):
+        data = self.GetTableData("Contacts")
+        self.Contacts = data
+        self.CourseOrganiserText=""
+        self.CourseSecretaryText=""
+              
+        if data == []:
+            return
+        
+        for row in data:
+            try:    
+                label = row[0].strip()
+            
+                if label == "Course organiser":
+                    try:
+                        self.CourseOrganiserText = row[1]
+                        self.CourseSecretaryText = row[3]
+                    except:
+                        pass
+
+            except IndexError:
+                pass
+ 
+        self.CourseOrganiser = self.CourseOrganiserText.split('\n')[0]
+        self.CourseSecretary = self.CourseSecretaryText.split('\n')[0]
     
+     
     def ParseOutline(self):
         
         #TODO switch on first string in each row to assign values

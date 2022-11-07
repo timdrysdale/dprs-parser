@@ -101,6 +101,10 @@ class TestCourse(unittest.TestCase):
         self.assertEqual(c.AdditionalInformationText, additional_information_text)
         self.assertEqual(c.FeedbackText, feedback_text)
         
+        self.assertEqual(c.CourseOrganiserText,"Dr Aristides Kiprakis\nTel: (0131 6)50 5586\nEmail: Aristides.Kiprakis@ed.ac.uk")
+        self.assertEqual(c.CourseOrganiser,"Dr Aristides Kiprakis")      
+        self.assertEqual(c.CourseSecretaryText,"Mrs Lynn Hughieson\nTel: (0131 6)50 5687\nEmail: Lynn.Hughieson@ed.ac.uk")
+        self.assertEqual(c.CourseSecretary,"Mrs Lynn Hughieson")
    
         
 if __name__ == "__main__":

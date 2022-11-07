@@ -34,20 +34,22 @@ if __name__ == "__main__":
             
     code = []
     name = []
+    organiser = []
     year = []
     credit = []
+    semester = []
     we = []
     cw = []
     pe = []
-    ai= []
-    fb = []
     
     sorted_eng_courses = sorted(eng_courses, key=lambda x: (x.Code[0:3], x.Year))
-        
+ 
     for c in sorted_eng_courses:
         code.append(c.Code)
         name.append(c.Name)
+        organiser.append(c.CourseOrganiser)
         year.append(c.Year)
+        semester.append(c.Start)
         credit.append(c.SCQF_credits)
         
         try:
@@ -70,17 +72,16 @@ if __name__ == "__main__":
     df = pd.DataFrame({
         'Code': code,
         'Name': name,
+        'Organiser': organiser,
         'Year': year,
         'Credits': credit,
-        'Written Exam': we,
-        'Coursework': cw,
-        'Practical Exam': pe,
+        'Semester': semester,
+        'Written Exam %': we,
+        'Coursework %': cw,
+        'Practical Exam %': pe,
         })
     
-    writer = pd.ExcelWriter('SOE_assessment.xlsx') 
-    
-    df.to_excel(writer, sheet_name='Courses', index=False)     
-            
-    writer.close()      
+    df.to_csv('SOE_assessment.csv', index=False)
+  
                 
  
